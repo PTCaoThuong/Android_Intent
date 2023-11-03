@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#F84E88"
+        android:text="This is sub activity"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back to main" />
+</LinearLayout>
